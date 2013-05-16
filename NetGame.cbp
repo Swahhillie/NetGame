@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="NetGame" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="NetGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="NetGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-network" />
+			<Add library="sfml-graphics" />
+			<Add library="sfml-system" />
+			<Add library="glew32" />
+			<Add library="opengl32" />
+			<Add library="sfml-window" />
+		</Linker>
+		<Unit filename="include/Button.hpp" />
+		<Unit filename="include/Character.hpp" />
+		<Unit filename="include/CharacterGameObject.hpp" />
+		<Unit filename="include/Client.hpp" />
+		<Unit filename="include/ClientsManager.hpp" />
+		<Unit filename="include/CommandHandler.hpp" />
+		<Unit filename="include/ConfigLoader.hpp" />
+		<Unit filename="include/ControlledCharacter.hpp" />
+		<Unit filename="include/Controller.hpp" />
+		<Unit filename="include/DatabaseManager.hpp" />
+		<Unit filename="include/DebugSpace.h" />
+		<Unit filename="include/FullExpressionAccumulator.hpp" />
+		<Unit filename="include/GUI.hpp" />
+		<Unit filename="include/Game.hpp" />
+		<Unit filename="include/GameCommandHandler.hpp" />
+		<Unit filename="include/GameObject.hpp" />
+		<Unit filename="include/Global_Constants.hpp" />
+		<Unit filename="include/KeyState.hpp" />
+		<Unit filename="include/Level.hpp" />
+		<Unit filename="include/LocalPlayerInfo.hpp" />
+		<Unit filename="include/LoginManager.hpp" />
+		<Unit filename="include/MasterServer.hpp" />
+		<Unit filename="include/Mutexes.hpp" />
+		<Unit filename="include/NetworkEvents.h" />
+		<Unit filename="include/NetworkInterface.hpp" />
+		<Unit filename="include/NetworkedCharacter.hpp" />
+		<Unit filename="include/Scene.hpp" />
+		<Unit filename="include/Server.hpp" />
+		<Unit filename="include/ServerCommandHandler.hpp" />
+		<Unit filename="include/StringOperations.hpp" />
+		<Unit filename="include/TargetBlock.hpp" />
+		<Unit filename="include/TextField.hpp" />
+		<Unit filename="include/TextInputField.hpp" />
+		<Unit filename="include/Time.hpp" />
+		<Unit filename="include/Transform.hpp" />
+		<Unit filename="include/json-forwards.h" />
+		<Unit filename="include/json.h" />
+		<Unit filename="include/sqlite3.h" />
+		<Unit filename="include/sqlite3ext.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Button.cpp" />
+		<Unit filename="src/Character.cpp" />
+		<Unit filename="src/CharacterGameObject.cpp" />
+		<Unit filename="src/Client.cpp" />
+		<Unit filename="src/ClientsManager.cpp" />
+		<Unit filename="src/CommandHandler.cpp" />
+		<Unit filename="src/ConfigLoader.cpp" />
+		<Unit filename="src/ControlledCharacter.cpp" />
+		<Unit filename="src/Controller.cpp" />
+		<Unit filename="src/DatabaseManager.cpp" />
+		<Unit filename="src/FullExpressionAccumulator.cpp" />
+		<Unit filename="src/GUI.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/GameCommandHandler.cpp" />
+		<Unit filename="src/GameObject.cpp" />
+		<Unit filename="src/KeyState.cpp" />
+		<Unit filename="src/Level.cpp" />
+		<Unit filename="src/LocalPlayerInfo.cpp" />
+		<Unit filename="src/LoginManager.cpp" />
+		<Unit filename="src/MasterServer.cpp" />
+		<Unit filename="src/Mutexes.cpp" />
+		<Unit filename="src/NetworkEvents.cpp" />
+		<Unit filename="src/NetworkInterface.cpp" />
+		<Unit filename="src/NetworkedCharacter.cpp" />
+		<Unit filename="src/Scene.cpp" />
+		<Unit filename="src/Server.cpp" />
+		<Unit filename="src/ServerCommandHandler.cpp" />
+		<Unit filename="src/StringOperations.cpp" />
+		<Unit filename="src/TargetBlock.cpp" />
+		<Unit filename="src/TextField.cpp" />
+		<Unit filename="src/TextInputField.cpp" />
+		<Unit filename="src/Time.cpp" />
+		<Unit filename="src/Transform.cpp" />
+		<Unit filename="src/jsoncpp.cpp" />
+		<Unit filename="src/sqlite3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

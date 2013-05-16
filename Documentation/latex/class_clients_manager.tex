@@ -1,0 +1,80 @@
+\hypertarget{class_clients_manager}{\section{Clients\-Manager Class Reference}
+\label{class_clients_manager}\index{Clients\-Manager@{Clients\-Manager}}
+}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_clients_manager_afd5ccb0a4a115f22fc85374df568c74f}{typedef std\-::map$<$ std\-::string, \\*
+\hyperlink{class_client}{Client} $\ast$ $>$ {\bfseries Clients}}\label{class_clients_manager_afd5ccb0a4a115f22fc85374df568c74f}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_clients_manager_af50b8efec34aa37dd60f599dda9fdc57}{{\bfseries Clients\-Manager} (bool is\-Server\-Side=false)}\label{class_clients_manager_af50b8efec34aa37dd60f599dda9fdc57}
+
+\item 
+\hypertarget{class_clients_manager_a60d59eb27425056cf2522420a1634f61}{void {\bfseries remove\-Client} (const std\-::string \&name)}\label{class_clients_manager_a60d59eb27425056cf2522420a1634f61}
+
+\item 
+\hypertarget{class_clients_manager_a0500fc808d435266e54b2b3f4640db77}{bool {\bfseries add\-Client} (const std\-::string \&name, const sf\-::\-Color \&color=sf\-::\-Color\-::\-Blue, const sf\-::\-Ip\-Address \&ip=sf\-::\-Ip\-Address\-::\-None, unsigned short port=0)}\label{class_clients_manager_a0500fc808d435266e54b2b3f4640db77}
+
+\item 
+\hypertarget{class_clients_manager_a90424f43cd357ca551625b68fa0854de}{void {\bfseries bind\-Character\-To\-Client} (std\-::string name, \hyperlink{class_networked_character}{Networked\-Character} $\ast$character)}\label{class_clients_manager_a90424f43cd357ca551625b68fa0854de}
+
+\item 
+\hypertarget{class_clients_manager_a1a3c6b502614cddb492ff1c58686e82f}{\hyperlink{class_client}{Client} $\ast$ {\bfseries get\-Client} (const std\-::string \&name)}\label{class_clients_manager_a1a3c6b502614cddb492ff1c58686e82f}
+
+\item 
+\hypertarget{class_clients_manager_a9c6bfceac0cb4fbe9bcbd367df272b50}{std\-::string {\bfseries get\-Rejection\-Reason} () const }\label{class_clients_manager_a9c6bfceac0cb4fbe9bcbd367df272b50}
+
+\item 
+void \hyperlink{class_clients_manager_ae55a1c248752d118e56da6e5a5dfa429}{extrapolate\-Positions} ()
+\begin{DoxyCompactList}\small\item\em Extrapolate clients. \end{DoxyCompactList}\item 
+\hypertarget{class_clients_manager_ae1bb4da6d7e6a0e5731e23811eb5dbc2}{void {\bfseries update\-Client} (const \hyperlink{class_player_state_update}{Player\-State\-Update} \&puts)}\label{class_clients_manager_ae1bb4da6d7e6a0e5731e23811eb5dbc2}
+
+\item 
+\hypertarget{class_clients_manager_a00d0c395855215143333ef4ed1187547}{Clients \& {\bfseries get\-Clients} ()}\label{class_clients_manager_a00d0c395855215143333ef4ed1187547}
+
+\item 
+\hypertarget{class_clients_manager_a8516b51b3ccb0c9b4b2583def59eece8}{sf\-::\-Packet {\bfseries get\-Client\-Updates} () const }\label{class_clients_manager_a8516b51b3ccb0c9b4b2583def59eece8}
+
+\item 
+\hypertarget{class_clients_manager_aaebc9d734a34da60dbbf17b34a5a16ac}{void {\bfseries set\-Active\-Level} (const \hyperlink{class_level}{Level} $\ast$level)}\label{class_clients_manager_aaebc9d734a34da60dbbf17b34a5a16ac}
+
+\item 
+\hypertarget{class_clients_manager_a3ef677ec0f4c253462760fb75eeb8059}{const \hyperlink{class_level}{Level} \& {\bfseries get\-Active\-Level} () const }\label{class_clients_manager_a3ef677ec0f4c253462760fb75eeb8059}
+
+\item 
+\hypertarget{class_clients_manager_ad50da4a26c76268243d717ab8c692359}{void {\bfseries reset\-Scores} ()}\label{class_clients_manager_ad50da4a26c76268243d717ab8c692359}
+
+\item 
+\hypertarget{class_clients_manager_a40bbeb61e7d3ac8b53a3cd43291de74f}{\hyperlink{class_score_change}{Score\-Change} {\bfseries get\-Scores} ()}\label{class_clients_manager_a40bbeb61e7d3ac8b53a3cd43291de74f}
+
+\item 
+\hypertarget{class_clients_manager_a35139e6bc44b908fb44ed338a10901ce}{void {\bfseries set\-Score} (const std\-::string \&name, int score)}\label{class_clients_manager_a35139e6bc44b908fb44ed338a10901ce}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_clients_manager_ae55a1c248752d118e56da6e5a5dfa429}{\index{Clients\-Manager@{Clients\-Manager}!extrapolate\-Positions@{extrapolate\-Positions}}
+\index{extrapolate\-Positions@{extrapolate\-Positions}!ClientsManager@{Clients\-Manager}}
+\subsubsection[{extrapolate\-Positions}]{\setlength{\rightskip}{0pt plus 5cm}void Clients\-Manager\-::extrapolate\-Positions (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_clients_manager_ae55a1c248752d118e56da6e5a5dfa429}
+
+
+Extrapolate clients. 
+
+\begin{DoxyReturn}{Returns}
+Extrapolate client position based on \-: current key state current velocity current position current acceleration time since last update 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+include/Clients\-Manager.\-hpp\item 
+src/Clients\-Manager.\-cpp\end{DoxyCompactItemize}

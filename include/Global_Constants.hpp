@@ -1,0 +1,8 @@
+#ifndef GLOBAL_CONSTANTS_HPP_INCLUDED
+#define GLOBAL_CONSTANTS_HPP_INCLUDED
+
+const unsigned short MASTERSERVERPORT = 5001;
+const unsigned short SERVERPORT = 5002;
+const unsigned short CLIENTPORT = 5003;
+
+#endif // GLOBAL_CONSTANTS_HPP_INCLUDED

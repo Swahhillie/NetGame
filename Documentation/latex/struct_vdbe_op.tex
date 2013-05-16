@@ -1,0 +1,53 @@
+\hypertarget{struct_vdbe_op}{\section{Vdbe\-Op Struct Reference}
+\label{struct_vdbe_op}\index{Vdbe\-Op@{Vdbe\-Op}}
+}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{struct_vdbe_op_ae12a8e7a8f5f7ba39fa379c9ad287837}{u8 {\bfseries opcode}}\label{struct_vdbe_op_ae12a8e7a8f5f7ba39fa379c9ad287837}
+
+\item 
+\hypertarget{struct_vdbe_op_a124dee58d3e0d73c7dfaf811a3311023}{signed char {\bfseries p4type}}\label{struct_vdbe_op_a124dee58d3e0d73c7dfaf811a3311023}
+
+\item 
+\hypertarget{struct_vdbe_op_a169a7bbe99a90c26ee01833723750b1d}{u8 {\bfseries opflags}}\label{struct_vdbe_op_a169a7bbe99a90c26ee01833723750b1d}
+
+\item 
+\hypertarget{struct_vdbe_op_a5e807981f52d29c06a5b6d4a8f2f4595}{u8 {\bfseries p5}}\label{struct_vdbe_op_a5e807981f52d29c06a5b6d4a8f2f4595}
+
+\item 
+\hypertarget{struct_vdbe_op_a17c8326a1e3ac5612d4aaaa88f383b3b}{int {\bfseries p1}}\label{struct_vdbe_op_a17c8326a1e3ac5612d4aaaa88f383b3b}
+
+\item 
+\hypertarget{struct_vdbe_op_aba021fa9d30343c16794d9b76d8bffcd}{int {\bfseries p2}}\label{struct_vdbe_op_aba021fa9d30343c16794d9b76d8bffcd}
+
+\item 
+\hypertarget{struct_vdbe_op_ad7ef3319da20d5423b8cc5da6995d193}{int {\bfseries p3}}\label{struct_vdbe_op_ad7ef3319da20d5423b8cc5da6995d193}
+
+\item 
+\hypertarget{struct_vdbe_op_ad12005effc92477a2fb99b0cadb3b5e0}{\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+union \{\\
+\>int {\bfseries i}\\
+\>void $\ast$ {\bfseries p}\\
+\>char $\ast$ {\bfseries z}\\
+\>i64 $\ast$ {\bfseries pI64}\\
+\>double $\ast$ {\bfseries pReal}\\
+\>\hyperlink{struct_func_def}{FuncDef} $\ast$ {\bfseries pFunc}\\
+\>\hyperlink{struct_vdbe_func}{VdbeFunc} $\ast$ {\bfseries pVdbeFunc}\\
+\>\hyperlink{struct_coll_seq}{CollSeq} $\ast$ {\bfseries pColl}\\
+\>\hyperlink{struct_mem}{Mem} $\ast$ {\bfseries pMem}\\
+\>\hyperlink{struct_v_table}{VTable} $\ast$ {\bfseries pVtab}\\
+\>\hyperlink{struct_key_info}{KeyInfo} $\ast$ {\bfseries pKeyInfo}\\
+\>int $\ast$ {\bfseries ai}\\
+\>\hyperlink{struct_sub_program}{SubProgram} $\ast$ {\bfseries pProgram}\\
+\>int($\ast$ {\bfseries xAdvance} )(\hyperlink{struct_bt_cursor}{BtCursor} $\ast$, int $\ast$)\\
+\} {\bfseries p4}}\label{struct_vdbe_op_ad12005effc92477a2fb99b0cadb3b5e0}
+\\
+
+\end{tabbing}\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/sqlite3.\-c\end{DoxyCompactItemize}

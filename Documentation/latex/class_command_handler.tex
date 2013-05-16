@@ -1,0 +1,75 @@
+\hypertarget{class_command_handler}{\section{Command\-Handler Class Reference}
+\label{class_command_handler}\index{Command\-Handler@{Command\-Handler}}
+}
+Inheritance diagram for Command\-Handler\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_command_handler}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_command_handler_a096eee4929c6cb8fa35c6c9756649d3e}{void {\bfseries handle\-Packet} (\hyperlink{struct_packet_wrap}{Packet\-Wrap} \&packwrap)}\label{class_command_handler_a096eee4929c6cb8fa35c6c9756649d3e}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_command_handler_a1d0c2dc14bcc75cec3dd71724fbe4d18}{virtual void {\bfseries player\-\_\-connected} (const \hyperlink{class_player_connected}{Player\-Connected} \&pe)}\label{class_command_handler_a1d0c2dc14bcc75cec3dd71724fbe4d18}
+
+\item 
+\hypertarget{class_command_handler_a35987e69fa0f51be0bbb8e936a692943}{virtual void {\bfseries player\-\_\-authorize} (const \hyperlink{class_player_authorize}{Player\-Authorize} \&pe, const sf\-::\-Ip\-Address \&from\-Ip, unsigned short port)}\label{class_command_handler_a35987e69fa0f51be0bbb8e936a692943}
+
+\item 
+\hypertarget{class_command_handler_afc70cb365362c2cddb669adf2dbed202}{virtual void {\bfseries player\-\_\-disconnected} (const \hyperlink{class_player_disconnected}{Player\-Disconnected} \&pe)}\label{class_command_handler_afc70cb365362c2cddb669adf2dbed202}
+
+\item 
+\hypertarget{class_command_handler_a6b43e54d3fad2cb9f0313c3a7e46fc31}{virtual void {\bfseries player\-\_\-send\-\_\-message} (const \hyperlink{class_player_send_message}{Player\-Send\-Message} \&pe)}\label{class_command_handler_a6b43e54d3fad2cb9f0313c3a7e46fc31}
+
+\item 
+\hypertarget{class_command_handler_a613f3b7fefc54f7d6d3438c8220a184e}{virtual void {\bfseries player\-\_\-rejected} (const \hyperlink{class_player_rejected}{Player\-Rejected} \&pe)}\label{class_command_handler_a613f3b7fefc54f7d6d3438c8220a184e}
+
+\item 
+\hypertarget{class_command_handler_ace85a13e7d35f3895894610cb665defc}{virtual void {\bfseries player\-\_\-accepted} (const \hyperlink{class_player_accepted}{Player\-Accepted} \&pe)}\label{class_command_handler_ace85a13e7d35f3895894610cb665defc}
+
+\item 
+\hypertarget{class_command_handler_ab64f0deae690c4cdfb0f89e7f8e435ee}{virtual void {\bfseries player\-\_\-update\-\_\-to\-\_\-server} (const \hyperlink{class_player_state_update}{Player\-State\-Update} \&pe)}\label{class_command_handler_ab64f0deae690c4cdfb0f89e7f8e435ee}
+
+\item 
+\hypertarget{class_command_handler_a4038e57d46897520c478435f6b2c523a}{virtual void {\bfseries player\-\_\-update\-\_\-to\-\_\-client} (const \hyperlink{class_player_update_to_client}{Player\-Update\-To\-Client} \&pe)}\label{class_command_handler_a4038e57d46897520c478435f6b2c523a}
+
+\item 
+\hypertarget{class_command_handler_ae218cc4ddf432556c536d1199d460a08}{virtual void {\bfseries server\-\_\-entry\-\_\-get} (const \hyperlink{class_server_entry_get}{Server\-Entry\-Get} \&pe)}\label{class_command_handler_ae218cc4ddf432556c536d1199d460a08}
+
+\item 
+\hypertarget{class_command_handler_acce90c5e737c5f349f1e8e93f3e59eb2}{virtual void {\bfseries server\-\_\-entry\-\_\-add} (const \hyperlink{class_server_entry_add}{Server\-Entry\-Add} \&pe)}\label{class_command_handler_acce90c5e737c5f349f1e8e93f3e59eb2}
+
+\item 
+\hypertarget{class_command_handler_a76a5c4f33e33dea95c5cc7050f30d377}{virtual void {\bfseries server\-\_\-entry\-\_\-list} (const \hyperlink{class_server_entry_list}{Server\-Entry\-List} \&pe)}\label{class_command_handler_a76a5c4f33e33dea95c5cc7050f30d377}
+
+\item 
+\hypertarget{class_command_handler_a0d19faf20a2c40048d3faa0b5f4eca5c}{virtual void {\bfseries server\-\_\-entry\-\_\-accept} (const \hyperlink{class_server_entry_accept}{Server\-Entry\-Accept} \&pe)}\label{class_command_handler_a0d19faf20a2c40048d3faa0b5f4eca5c}
+
+\item 
+\hypertarget{class_command_handler_ad4f40da7d8732147f293f8df3b327770}{virtual void {\bfseries server\-\_\-entry\-\_\-reject} (const \hyperlink{class_server_entry_reject}{Server\-Entry\-Reject} \&pe)}\label{class_command_handler_ad4f40da7d8732147f293f8df3b327770}
+
+\item 
+\hypertarget{class_command_handler_a738593e20fa0db62aa7122384244f057}{virtual void {\bfseries load\-\_\-level} (const \hyperlink{class_load_level}{Load\-Level} \&pe)}\label{class_command_handler_a738593e20fa0db62aa7122384244f057}
+
+\item 
+\hypertarget{class_command_handler_ad43d560637d448e2280a327c79822dc1}{virtual void {\bfseries destroy\-\_\-target} (const \hyperlink{class_destroy_target}{Destroy\-Target} \&pe)}\label{class_command_handler_ad43d560637d448e2280a327c79822dc1}
+
+\item 
+\hypertarget{class_command_handler_a539b994b6264c5c286c7551580e7b5a0}{virtual void {\bfseries score\-\_\-change} (const \hyperlink{class_score_change}{Score\-Change} \&pe)}\label{class_command_handler_a539b994b6264c5c286c7551580e7b5a0}
+
+\item 
+\hypertarget{class_command_handler_a573af2e6e934d0ede953d715a92f7a43}{virtual void {\bfseries create\-\_\-target} (const \hyperlink{class_create_target}{Create\-Target} \&pe)}\label{class_command_handler_a573af2e6e934d0ede953d715a92f7a43}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+include/Command\-Handler.\-hpp\item 
+src/Command\-Handler.\-cpp\end{DoxyCompactItemize}

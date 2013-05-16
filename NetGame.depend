@@ -1,0 +1,828 @@
+# depslib dependency file v1.0
+1365778138 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\controller.cpp
+	"Controller.hpp"
+	<SFML/Graphics.hpp>
+	<SFML/System.hpp>
+	<iostream>
+
+1365770798 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\controller.hpp
+	<SFML/Graphics.hpp>
+	<SFML/System.hpp>
+	<glm/glm.hpp>
+
+1365947708 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\game.cpp
+	"Game.hpp"
+	<SFML/Graphics.hpp>
+	"FullExpressionAccumulator.hpp"
+	"LocalPlayerInfo.hpp"
+	"Time.hpp"
+	"DebugSpace.h"
+	"NetworkEvents.h"
+	"ConfigLoader.hpp"
+	<vector>
+	"GUI.hpp"
+
+1365938935 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\game.hpp
+	<SFML/Graphics.hpp>
+	"NetworkInterface.hpp"
+	"Controller.hpp"
+	"Scene.hpp"
+	"NetworkEvents.h"
+	<SFML/Network.hpp>
+	<string>
+	"GameCommandHandler.hpp"
+	"ClientsManager.hpp"
+	"LoginManager.hpp"
+
+1365888855 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\networkinterface.hpp
+	<SFML/Network.hpp>
+	<SFML/System.hpp>
+	<queue>
+	"NetworkEvents.h"
+
+1365953761 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\scene.hpp
+	<SFML/Graphics.hpp>
+	"GameObject.hpp"
+	<glm/glm.hpp>
+	"Level.hpp"
+
+1365947944 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\networkinterface.cpp
+	"NetworkInterface.hpp"
+	"Global_Constants.hpp"
+	"FullExpressionAccumulator.hpp"
+	"Mutexes.hpp"
+	"Game.hpp"
+	"DebugSpace.h"
+	"LocalPlayerInfo.hpp"
+	"ConfigLoader.hpp"
+
+1365980554 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\scene.cpp
+	"Scene.hpp"
+	"Time.hpp"
+	"FullExpressionAccumulator.hpp"
+	<sstream>
+	<math.h>
+	"ControlledCharacter.hpp"
+	"Transform.hpp"
+	"GUI.hpp"
+	"NetworkedCharacter.hpp"
+	<glm/glm.hpp>
+	"Level.hpp"
+	"Game.hpp"
+	"TargetBlock.hpp"
+	<assert.h>
+	"ConfigLoader.hpp"
+
+1365980407 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\server.cpp
+	"Server.hpp"
+	"FullExpressionAccumulator.hpp"
+	"Global_Constants.hpp"
+	"Mutexes.hpp"
+	<assert.h>
+	"Time.hpp"
+	"NetworkEvents.h"
+	"ConfigLoader.hpp"
+	"DebugSpace.h"
+	"Client.hpp"
+	"Level.hpp"
+	"Character.hpp"
+	<glm/gtx/norm.hpp>
+	<math.h>
+
+1365980086 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\server.hpp
+	<SFML/Network.hpp>
+	<SFML/System.hpp>
+	<list>
+	<map>
+	<queue>
+	"NetworkEvents.h"
+	"ClientsManager.hpp"
+	"ServerCommandHandler.hpp"
+	"DatabaseManager.hpp"
+	"Level.hpp"
+
+1365885352 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\main.cpp
+	<iostream>
+	"Server.hpp"
+	"Game.hpp"
+	"MasterServer.hpp"
+	"DebugSpace.h"
+	"FullExpressionAccumulator.hpp"
+	"ConfigLoader.hpp"
+	<sstream>
+
+1365972690 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\client.cpp
+	"Client.hpp"
+	"Character.hpp"
+	"ConfigLoader.hpp"
+
+1365972679 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\client.hpp
+	<SFML/Network.hpp>
+	<SFML/Graphics.hpp>
+	<string>
+	"KeyState.hpp"
+	<glm/glm.hpp>
+	"NetworkEvents.h"
+	<queue>
+
+1364417988 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\fullexpressionaccumulator.cpp
+	"FullExpressionAccumulator.hpp"
+
+1365291630 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\fullexpressionaccumulator.hpp
+	<sstream>
+	<iostream>
+
+1364419840 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\mutexes.cpp
+	"Mutexes.hpp"
+
+1364421896 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\mutexes.hpp
+	<SFML/System.hpp>
+
+1365692782 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\global_constants.hpp
+
+1365018207 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\time.cpp
+	"Time.hpp"
+
+1365018207 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\time.hpp
+	<SFML/System.hpp>
+
+1365071032 source:c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\main.cpp
+	<iostream>
+	"Server.hpp"
+	"Game.hpp"
+
+1365069134 c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\server.hpp
+	<SFML/Network.hpp>
+	<SFML/System.hpp>
+	<list>
+	<queue>
+	"NetworkEvents.h"
+
+1365034899 c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\game.hpp
+	<SFML/Graphics.hpp>
+	"NetworkInterface.hpp"
+	"Controller.hpp"
+	"Scene.hpp"
+	"NetworkEvents.h"
+	<SFML/Network.hpp>
+	<string>
+
+1365035784 c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\networkinterface.hpp
+	<SFML/Network.hpp>
+	<SFML/System.hpp>
+	<queue>
+
+1365069239 c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\controller.hpp
+	<SFML/Graphics.hpp>
+	<SFML/System.hpp>
+	<glm/glm.hpp>
+
+1365027481 c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\scene.hpp
+	<SFML/Graphics.hpp>
+	"GameObject.hpp"
+
+1364424970 source:c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\client.cpp
+	"Client.hpp"
+
+1364424970 c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\client.hpp
+	<SFML/Network.hpp>
+
+1365069239 source:c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\controller.cpp
+	"Controller.hpp"
+	<SFML/Graphics.hpp>
+	<SFML/System.hpp>
+
+1364425188 source:c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\fullexpressionaccumulator.cpp
+	"FullExpressionAccumulator.hpp"
+
+1364425178 c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\fullexpressionaccumulator.hpp
+	<sstream>
+	<iostream>
+
+1365069239 source:c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\game.cpp
+	"Game.hpp"
+	<SFML/Graphics.hpp>
+	"FullExpressionAccumulator.hpp"
+	"LocalPlayerInfo.hpp"
+	"Time.hpp"
+
+1365018207 c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\time.hpp
+	<SFML/System.hpp>
+
+1364427040 source:c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\mutexes.cpp
+	"Mutexes.hpp"
+
+1364429097 c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\mutexes.hpp
+	<SFML/System.hpp>
+
+1365038205 source:c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\networkinterface.cpp
+	"NetworkInterface.hpp"
+	"Global_Constants.hpp"
+	"FullExpressionAccumulator.hpp"
+	"Mutexes.hpp"
+	"Game.hpp"
+
+1364431432 c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\global_constants.hpp
+
+1365070095 source:c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\server.cpp
+	"Server.hpp"
+	"FullExpressionAccumulator.hpp"
+	"Global_Constants.hpp"
+	"Mutexes.hpp"
+	<assert.h>
+	"Client.hpp"
+	"Time.hpp"
+	"NetworkEvents.h"
+
+1365018207 source:c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\time.cpp
+	"Time.hpp"
+
+1365069239 source:c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\scene.cpp
+	"Scene.hpp"
+	"Time.hpp"
+	"FullExpressionAccumulator.hpp"
+	<sstream>
+	<math.h>
+	"Character.hpp"
+	"Transform.hpp"
+
+1365689486 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\character.cpp
+	"Character.hpp"
+	"FullExpressionAccumulator.hpp"
+	"KeyState.hpp"
+
+1365687644 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\character.hpp
+	<GLM/GLM.hpp>
+
+1365800067 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\gameobject.hpp
+	<SFML/Graphics.hpp>
+	<string>
+
+1365965333 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\transform.hpp
+	<glm/glm.hpp>
+	<vector>
+	<SFML/Graphics.hpp>
+
+1365800767 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\gameobject.cpp
+	"GameObject.hpp"
+	<assert.h>
+	"Transform.hpp"
+	<iostream>
+
+1365800053 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\transform.cpp
+	"Transform.hpp"
+	"GameObject.hpp"
+	<assert.h>
+	"FullExpressionAccumulator.hpp"
+	<iostream>
+
+1364820492 source:c:\users\act\downloads\netgame\main.cpp
+	<iostream>
+	"Server.hpp"
+	"Game.hpp"
+
+1364819018 c:\users\act\downloads\netgame\include\server.hpp
+	<SFML/Network.hpp>
+	<SFML/System.hpp>
+	<list>
+	<queue>
+
+1364999395 c:\users\act\downloads\netgame\include\game.hpp
+	<SFML/Graphics.hpp>
+	"NetworkInterface.hpp"
+	"Controller.hpp"
+	"Scene.hpp"
+
+1364999569 c:\users\act\downloads\netgame\include\networkinterface.hpp
+	<SFML/Network.hpp>
+	<SFML/System.hpp>
+	<queue>
+
+1364417770 c:\users\act\downloads\netgame\include\controller.hpp
+	<SFML/Graphics.hpp>
+	<SFML/System.hpp>
+	<glm/glm.hpp>
+
+1364851232 c:\users\act\downloads\netgame\include\scene.hpp
+	<SFML/Graphics.hpp>
+	"GameObject.hpp"
+
+1364846660 c:\users\act\downloads\netgame\include\gameobject.hpp
+	<SFML/graphics.hpp>
+	<string>
+
+1364850480 source:c:\users\act\downloads\netgame\src\character.cpp
+	"Character.hpp"
+	"FullExpressionAccumulator.hpp"
+	"Time.hpp"
+	"Controller.hpp"
+	<glm/gtx/norm.hpp>
+	<glm/glm.hpp>
+	"Transform.hpp"
+
+1364850276 c:\users\act\downloads\netgame\include\character.hpp
+	<SFML/Graphics.hpp>
+	<glm/glm.hpp>
+	"GameObject.hpp"
+
+1364994863 c:\users\act\downloads\netgame\include\fullexpressionaccumulator.hpp
+	<sstream>
+	<iostream>
+
+1364426880 c:\users\act\downloads\netgame\include\time.hpp
+	<SFML/System.hpp>
+
+1364848570 c:\users\act\downloads\netgame\include\transform.hpp
+	<glm/glm.hpp>
+	<list>
+
+1364417770 source:c:\users\act\downloads\netgame\src\client.cpp
+	"Client.hpp"
+
+1364417770 c:\users\act\downloads\netgame\include\client.hpp
+	<SFML/Network.hpp>
+
+1364417770 source:c:\users\act\downloads\netgame\src\controller.cpp
+	"Controller.hpp"
+	<SFML/Graphics.hpp>
+	<SFML/System.hpp>
+
+1364417988 source:c:\users\act\downloads\netgame\src\fullexpressionaccumulator.cpp
+	"FullExpressionAccumulator.hpp"
+
+1365000296 source:c:\users\act\downloads\netgame\src\game.cpp
+	"Game.hpp"
+	<SFML/Graphics.hpp>
+	"FullExpressionAccumulator.hpp"
+	"Time.hpp"
+
+1364848548 source:c:\users\act\downloads\netgame\src\gameobject.cpp
+	"GameObject.hpp"
+	<assert.h>
+	"Transform.hpp"
+
+1364419840 source:c:\users\act\downloads\netgame\src\mutexes.cpp
+	"Mutexes.hpp"
+
+1364421896 c:\users\act\downloads\netgame\include\mutexes.hpp
+	<SFML/System.hpp>
+
+1365001539 source:c:\users\act\downloads\netgame\src\networkinterface.cpp
+	"NetworkInterface.hpp"
+	"Global_Constants.hpp"
+	"FullExpressionAccumulator.hpp"
+	"Mutexes.hpp"
+
+1364424232 c:\users\act\downloads\netgame\include\global_constants.hpp
+
+1364994295 source:c:\users\act\downloads\netgame\src\server.cpp
+	"Server.hpp"
+	"FullExpressionAccumulator.hpp"
+	"Global_Constants.hpp"
+	"Mutexes.hpp"
+	<assert.h>
+	"Client.hpp"
+	"Time.hpp"
+
+1364426848 source:c:\users\act\downloads\netgame\src\time.cpp
+	"Time.hpp"
+
+1364849584 source:c:\users\act\downloads\netgame\src\transform.cpp
+	"Transform.hpp"
+	"GameObject.hpp"
+	<assert.h>
+	"FullExpressionAccumulator.hpp"
+	<iostream>
+
+1364851682 source:c:\users\act\downloads\netgame\src\scene.cpp
+	"Scene.hpp"
+	"Time.hpp"
+	"FullExpressionAccumulator.hpp"
+	<sstream>
+	<math.h>
+	"Character.hpp"
+	"Transform.hpp"
+
+1365972529 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\networkevents.h
+	<string>
+	<SFML/Graphics.hpp>
+	<SFML/Network.hpp>
+	<glm/glm.hpp>
+	<sstream>
+	<iostream>
+	<vector>
+	"KeyState.hpp"
+
+1365276238 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\networkevents.cpp
+	<SFML/Graphics.hpp>
+	<SFML/Network.hpp>
+	<GLM/GLM.hpp>
+	<sstream>
+	<NetworkEvents.h>
+	<DebugSpace.h>
+	"FullExpressionAccumulator.hpp"
+	"Client.hpp"
+
+1365947683 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\localplayerinfo.hpp
+	<string>
+	<SFML/Graphics.hpp>
+	"NetworkEvents.h"
+	"ControlledCharacter.hpp"
+	"Time.hpp"
+
+1365244410 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\localplayerinfo.cpp
+	"LocalPlayerInfo.hpp"
+
+1365037337 source:c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\character.cpp
+	"Character.hpp"
+	"FullExpressionAccumulator.hpp"
+	"Time.hpp"
+	"Controller.hpp"
+	<glm/gtx/norm.hpp>
+	<glm/glm.hpp>
+	"Transform.hpp"
+	"LocalPlayerInfo.hpp"
+
+1365069239 c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\character.hpp
+	<SFML/Graphics.hpp>
+	<glm/glm.hpp>
+	"GameObject.hpp"
+
+1365018207 c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\gameobject.hpp
+	<SFML/graphics.hpp>
+	<string>
+
+1365018207 c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\transform.hpp
+	<glm/glm.hpp>
+	<list>
+
+1365069239 c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\localplayerinfo.hpp
+	<string>
+	<SFML/Graphics.hpp>
+
+1365018207 source:c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\gameobject.cpp
+	"GameObject.hpp"
+	<assert.h>
+	"Transform.hpp"
+
+1365069239 source:c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\localplayerinfo.cpp
+	"LocalPlayerInfo.hpp"
+
+1365068522 c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\networkevents.h
+	<string>
+	<SFML/Graphics.hpp>
+	<SFML/Network.hpp>
+	<glm/glm.hpp>
+	<sstream>
+
+1365018207 source:c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\transform.cpp
+	"Transform.hpp"
+	"GameObject.hpp"
+	<assert.h>
+	"FullExpressionAccumulator.hpp"
+	<iostream>
+
+1365069239 source:c:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\networkevents.cpp
+	<SFML/Graphics.hpp>
+	<SFML/Network.hpp>
+	<GLM/GLM.hpp>
+	<sstream>
+	<NetworkEvents.h>
+
+1365186478 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\debugspace.h
+
+1365975117 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\clientsmanager.hpp
+	<string>
+	<map>
+	<SFML/Graphics.hpp>
+	<SFML/Network.hpp>
+	"Client.hpp"
+	"NetworkEvents.h"
+
+1365980862 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\clientsmanager.cpp
+	"ClientsManager.hpp"
+	"Client.hpp"
+	"FullExpressionAccumulator.hpp"
+	<glm/gtx/norm.hpp>
+	<glm/glm.hpp>
+	"ConfigLoader.hpp"
+	"Time.hpp"
+	"NetworkedCharacter.hpp"
+	"Level.hpp"
+	"LocalPlayerInfo.hpp"
+
+1365113022 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\masterserver.hpp
+	<string>
+	<list>
+	<SFML/Network.hpp>
+	<SFML/System.hpp>
+	<NetworkEvents.h>
+
+1365290822 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\masterserver.cpp
+	"MasterServer.hpp"
+	"Global_Constants.hpp"
+	<SFML/Network.hpp>
+	"FullExpressionAccumulator.hpp"
+	<assert.h>
+	"DebugSpace.h"
+
+1304372844 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\jsoncpp.cpp
+	<json/json.h>
+	<json/reader.h>
+	<json/value.h>
+	"json_tool.h"
+	<utility>
+	<cstdio>
+	<cassert>
+	<cstring>
+	<iostream>
+	<stdexcept>
+	<stdlib.h>
+	<assert.h>
+	<json/value.h>
+	<json/writer.h>
+	"json_batchallocator.h"
+	<iostream>
+	<utility>
+	<stdexcept>
+	<cstring>
+	<cassert>
+	<cpptl/conststring.h>
+	<cstddef>
+	"json_internalarray.inl"
+	"json_internalmap.inl"
+	"json_valueiterator.inl"
+	<json/writer.h>
+	"json_tool.h"
+	<utility>
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<sstream>
+	<iomanip>
+
+1365180372 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\json\json.h
+	<cpptl/config.h>
+	"config.h"
+	"forwards.h"
+	"forwards.h"
+	<string>
+	<vector>
+	<map>
+	<cpptl/smallmap.h>
+	<cpptl/forwards.h>
+	"features.h"
+	"value.h"
+	<deque>
+	<stack>
+	<string>
+	<iostream>
+	"value.h"
+	<vector>
+	<string>
+	<iostream>
+
+1365896880 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\configloader.cpp
+	"ConfigLoader.hpp"
+	<fstream>
+	<string>
+	<cerrno>
+	<assert.h>
+	<sstream>
+	"NetworkEvents.h"
+
+1365897803 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\configloader.hpp
+	<string>
+	<SFML/System.hpp>
+	<json/json.h>
+	<vector>
+
+1365976055 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\controlledcharacter.hpp
+	<SFML/Graphics.hpp>
+	<glm/glm.hpp>
+	"NetworkedCharacter.hpp"
+	"KeyState.hpp"
+	"Character.hpp"
+
+1365248531 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\keystate.hpp
+	<SFML/Network.hpp>
+
+1365976171 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\controlledcharacter.cpp
+	"ControlledCharacter.hpp"
+	"FullExpressionAccumulator.hpp"
+	"Time.hpp"
+	"Controller.hpp"
+	<glm/gtx/norm.hpp>
+	<glm/glm.hpp>
+	"Transform.hpp"
+	"LocalPlayerInfo.hpp"
+	"ConfigLoader.hpp"
+	"GUI.hpp"
+	<sstream>
+
+1365244629 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\keystate.cpp
+	"KeyState.hpp"
+
+1365991319 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\commandhandler.cpp
+	"CommandHandler.hpp"
+	"FullExpressionAccumulator.hpp"
+
+1365972406 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\commandhandler.hpp
+	"FullExpressionAccumulator.hpp"
+	"NetworkEvents.h"
+
+1365972475 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\gamecommandhandler.hpp
+	"CommandHandler.hpp"
+
+1365975873 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\gamecommandhandler.cpp
+	"GameCommandHandler.hpp"
+	"Game.hpp"
+	"LocalPlayerInfo.hpp"
+
+1365875186 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\servercommandhandler.hpp
+	"CommandHandler.hpp"
+
+1365874880 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\servercommandhandler.cpp
+	"ServerCommandHandler.hpp"
+	"Server.hpp"
+	"FullExpressionAccumulator.hpp"
+	"Time.hpp"
+
+1365976864 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\gui.cpp
+	"GUI.hpp"
+	"ConfigLoader.hpp"
+	"FullExpressionAccumulator.hpp"
+	<assert.h>
+	"Time.hpp"
+	"ClientsManager.hpp"
+	"Game.hpp"
+	"LocalPlayerInfo.hpp"
+
+1365976895 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\gui.hpp
+	"GameObject.hpp"
+	"TextInputField.hpp"
+
+1365972360 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\networkevents.cpp
+	<SFML/Graphics.hpp>
+	<SFML/Network.hpp>
+	<GLM/GLM.hpp>
+	<sstream>
+	<NetworkEvents.h>
+	<DebugSpace.h>
+	"FullExpressionAccumulator.hpp"
+	"Client.hpp"
+
+1365688618 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\networkedcharacter.hpp
+	"CharacterGameObject.hpp"
+	"KeyState.hpp"
+
+1365688631 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\networkedcharacter.cpp
+	"NetworkedCharacter.hpp"
+	"Time.hpp"
+	<iostream>
+
+1365943004 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\charactergameobject.cpp
+	"CharacterGameObject.hpp"
+	"ConfigLoader.hpp"
+	"FullExpressionAccumulator.hpp"
+	"Transform.hpp"
+	<math.h>
+
+1365782018 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\charactergameobject.hpp
+	"GameObject.hpp"
+	"Character.hpp"
+
+1365884859 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\textinputfield.hpp
+	<SFML/Graphics.hpp>
+	<string>
+	"GameObject.hpp"
+
+1365881916 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\textinputfield.cpp
+	"TextInputField.hpp"
+	<assert.h>
+	"Controller.hpp"
+	<iostream>
+	"GUI.hpp"
+
+1365947442 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\loginmanager.hpp
+	<string>
+
+1365948011 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\loginmanager.cpp
+	"LoginManager.hpp"
+	"Scene.hpp"
+	<assert.h>
+	"TextInputField.hpp"
+	<iostream>
+	"GUI.hpp"
+	"NetworkEvents.h"
+	"ConfigLoader.hpp"
+	"Button.hpp"
+
+1365948673 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\databasemanager.hpp
+	"sqlite3.h"
+	<string>
+
+1357761112 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\sqlite3.h
+	<stdarg.h>
+
+1357761112 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\sqlite3.c
+	"config.h"
+	<stdint.h>
+	<inttypes.h>
+	<tcl.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stddef.h>
+	<windows.h>
+	<ctype.h>
+	<time.h>
+	<sys/sysctl.h>
+	<malloc/malloc.h>
+	<libkern/OSAtomic.h>
+	<malloc.h>
+	<pthread.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/time.h>
+	<errno.h>
+	<sys/mman.h>
+	<sys/ioctl.h>
+	<semaphore.h>
+	<limits.h>
+	<sys/file.h>
+	<sys/param.h>
+	<sys/mount.h>
+	<utime.h>
+	<sys/dcmd_blk.h>
+	<sys/statvfs.h>
+	<dlfcn.h>
+	<sys/cygwin.h>
+	"sqlite3rtree.h"
+	<unicode/utypes.h>
+	<unicode/uregex.h>
+	<unicode/ustring.h>
+	<unicode/ucol.h>
+	<unicode/ubrk.h>
+	<unicode/utf16.h>
+
+1355175864 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\stringoperations.cpp
+	"StringOperations.hpp"
+
+1355175868 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\stringoperations.hpp
+	<iostream>
+	<string>
+	<fstream>
+	<vector>
+	<sstream>
+
+1365949066 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\databasemanager.cpp
+	"DatabaseManager.hpp"
+	"ConfigLoader.hpp"
+	"sqlite3.h"
+	<cstring>
+	<assert.h>
+	<sstream>
+	"StringOperations.hpp"
+
+1365883081 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\textfield.cpp
+
+1365966606 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\level.hpp
+	<vector>
+	<SFML/Graphics.hpp>
+	<map>
+	<GLM/GLM.hpp>
+
+1365978523 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\level.cpp
+	"Level.hpp"
+	"ConfigLoader.hpp"
+	<sstream>
+	<assert.h>
+	<GLM/GLM.hpp>
+	<math.h>
+
+1365947856 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\button.cpp
+	"Button.hpp"
+	"GUI.hpp"
+	"Controller.hpp"
+
+1365947805 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\button.hpp
+	"GameObject.hpp"
+	<SFML/Graphics.hpp>
+
+1365953188 e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\include\targetblock.hpp
+	"GameObject.hpp"
+	<SFML/Graphics.hpp>
+
+1365967220 source:e:\users\david\dropbox\flashstuff\c++ projects\networkgame\netgame\src\targetblock.cpp
+	"TargetBlock.hpp"
+	"Time.hpp"
+	<math.h>
+	"Transform.hpp"
+

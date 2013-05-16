@@ -1,0 +1,84 @@
+\hypertarget{class_controller}{\section{Controller Class Reference}
+\label{class_controller}\index{Controller@{Controller}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_controller_a1dd7b13f9d247cfb325a60aaff59ed13}{{\bfseries Controller} (sf\-::\-Render\-Window \&window)}\label{class_controller_a1dd7b13f9d247cfb325a60aaff59ed13}
+
+\item 
+\hypertarget{class_controller_a7d04c17913f04f99429aa29fa8505484}{void {\bfseries update} ()}\label{class_controller_a7d04c17913f04f99429aa29fa8505484}
+
+\item 
+\hypertarget{class_controller_a59f4b9e698c7d0448fde49074b1a1cce}{bool {\bfseries running} () const }\label{class_controller_a59f4b9e698c7d0448fde49074b1a1cce}
+
+\item 
+\hypertarget{class_controller_a91c1ec826fcccc82654154ac934cc332}{virtual const std\-::string {\bfseries get\-Name} ()}\label{class_controller_a91c1ec826fcccc82654154ac934cc332}
+
+\item 
+\hypertarget{class_controller_afa31ab73a5339d64c41742e7ec45759c}{void {\bfseries stop\-Running} ()}\label{class_controller_afa31ab73a5339d64c41742e7ec45759c}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_controller_acd9b2329e852e1857a7c6d3c9478cf0d}{static bool {\bfseries get\-Key} (sf\-::\-Keyboard\-::\-Key key\-Code)}\label{class_controller_acd9b2329e852e1857a7c6d3c9478cf0d}
+
+\item 
+\hypertarget{class_controller_acd28421325f54ebf707f4befd22be9ae}{static bool {\bfseries get\-Key\-Down} (sf\-::\-Keyboard\-::\-Key key\-Code)}\label{class_controller_acd28421325f54ebf707f4befd22be9ae}
+
+\item 
+\hypertarget{class_controller_a287e959445a85c875f6104ae70e86860}{static bool {\bfseries get\-Key\-Up} (sf\-::\-Keyboard\-::\-Key key\-Code)}\label{class_controller_a287e959445a85c875f6104ae70e86860}
+
+\item 
+\hypertarget{class_controller_a541c11ba7a31bdbe031e1a98b4c8d353}{static bool {\bfseries get\-Button} (sf\-::\-Mouse\-::\-Button button)}\label{class_controller_a541c11ba7a31bdbe031e1a98b4c8d353}
+
+\item 
+\hypertarget{class_controller_a198eb526541a114f2e249b6fee645624}{static bool {\bfseries get\-Button\-Down} (sf\-::\-Mouse\-::\-Button button)}\label{class_controller_a198eb526541a114f2e249b6fee645624}
+
+\item 
+\hypertarget{class_controller_a96ce3929a258e1d00a62cc85643a98fb}{static bool {\bfseries get\-Button\-Up} (sf\-::\-Mouse\-::\-Button button)}\label{class_controller_a96ce3929a258e1d00a62cc85643a98fb}
+
+\item 
+static bool \hyperlink{class_controller_ab199b67d544a200dccc71b5f73385f74}{get\-Text\-Entered} (std\-::string \&txt)
+\begin{DoxyCompactList}\small\item\em If a text event has occurred in the last frame txt will be set to the captured text. \end{DoxyCompactList}\item 
+\hypertarget{class_controller_ab5d78414b0896e1d62a6a95d60db4241}{static glm\-::vec2 {\bfseries get\-Delta\-Mouse} ()}\label{class_controller_ab5d78414b0896e1d62a6a95d60db4241}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_controller_a478768392c69a1bef3f77e0944d3560e}{static glm\-::vec2 {\bfseries mouse\-Position}}\label{class_controller_a478768392c69a1bef3f77e0944d3560e}
+
+\item 
+\hypertarget{class_controller_aa87365fb3d3b58bfb15c9a0d43d2b0e6}{static glm\-::vec2 {\bfseries last\-Mouse\-Position}}\label{class_controller_aa87365fb3d3b58bfb15c9a0d43d2b0e6}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_controller_ab199b67d544a200dccc71b5f73385f74}{\index{Controller@{Controller}!get\-Text\-Entered@{get\-Text\-Entered}}
+\index{get\-Text\-Entered@{get\-Text\-Entered}!Controller@{Controller}}
+\subsubsection[{get\-Text\-Entered}]{\setlength{\rightskip}{0pt plus 5cm}bool Controller\-::get\-Text\-Entered (
+\begin{DoxyParamCaption}
+\item[{std\-::string \&}]{txt}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_controller_ab199b67d544a200dccc71b5f73385f74}
+
+
+If a text event has occurred in the last frame txt will be set to the captured text. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & will be set to caught characters of the last frame. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+If any text was entered will return true. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+include/Controller.\-hpp\item 
+src/Controller.\-cpp\end{DoxyCompactItemize}

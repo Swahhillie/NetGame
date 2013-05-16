@@ -1,0 +1,85 @@
+\hypertarget{class_network_interface}{\section{Network\-Interface Class Reference}
+\label{class_network_interface}\index{Network\-Interface@{Network\-Interface}}
+}
+
+
+{\ttfamily \#include $<$Network\-Interface.\-hpp$>$}
+
+Inheritance diagram for Network\-Interface\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_network_interface}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \hyperlink{class_network_interface_adc72badb87b206431e240704e9aaa7c1}{$\sim$\-Network\-Interface} ()
+\item 
+bool \hyperlink{class_network_interface_addb6ab95cd5650952ac96270dc93c584}{connect\-To\-Ip} (const sf\-::\-Ip\-Address \&ip)
+\item 
+void \hyperlink{class_network_interface_a56f56d384eb1c6467e9b06d8e6b0b270}{disconnect\-From\-Server} ()
+\item 
+void \hyperlink{class_network_interface_a3589d7035ab5b0811a4026717dddc4a8}{handle\-Messages} (\hyperlink{class_game}{Game} \&game)
+\item 
+void \hyperlink{class_network_interface_a911ec8a94345995c2a9b8de593d65449}{ask\-For\-Server\-List} ()
+\item 
+\hypertarget{class_network_interface_af6129658a71407335a3db9ce15946893}{void {\bfseries send\-State\-Update} ()}\label{class_network_interface_af6129658a71407335a3db9ce15946893}
+
+\item 
+\hypertarget{class_network_interface_aae98c4b2b4d994f8eb20ae2c319b5b8a}{bool {\bfseries get\-Connected} () const }\label{class_network_interface_aae98c4b2b4d994f8eb20ae2c319b5b8a}
+
+\item 
+\hypertarget{class_network_interface_ae7761124af88949f00d0c209a11c2384}{void {\bfseries send\-Authorize\-Message} ()}\label{class_network_interface_ae7761124af88949f00d0c209a11c2384}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Handles network operatations that the game requires it to do 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_network_interface_adc72badb87b206431e240704e9aaa7c1}{\index{Network\-Interface@{Network\-Interface}!$\sim$\-Network\-Interface@{$\sim$\-Network\-Interface}}
+\index{$\sim$\-Network\-Interface@{$\sim$\-Network\-Interface}!NetworkInterface@{Network\-Interface}}
+\subsubsection[{$\sim$\-Network\-Interface}]{\setlength{\rightskip}{0pt plus 5cm}Network\-Interface\-::$\sim$\-Network\-Interface (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_network_interface_adc72badb87b206431e240704e9aaa7c1}
+Connect tcp socket to specified ip 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_network_interface_a911ec8a94345995c2a9b8de593d65449}{\index{Network\-Interface@{Network\-Interface}!ask\-For\-Server\-List@{ask\-For\-Server\-List}}
+\index{ask\-For\-Server\-List@{ask\-For\-Server\-List}!NetworkInterface@{Network\-Interface}}
+\subsubsection[{ask\-For\-Server\-List}]{\setlength{\rightskip}{0pt plus 5cm}void Network\-Interface\-::ask\-For\-Server\-List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_network_interface_a911ec8a94345995c2a9b8de593d65449}
+Send state of player over to the server \hypertarget{class_network_interface_addb6ab95cd5650952ac96270dc93c584}{\index{Network\-Interface@{Network\-Interface}!connect\-To\-Ip@{connect\-To\-Ip}}
+\index{connect\-To\-Ip@{connect\-To\-Ip}!NetworkInterface@{Network\-Interface}}
+\subsubsection[{connect\-To\-Ip}]{\setlength{\rightskip}{0pt plus 5cm}bool Network\-Interface\-::connect\-To\-Ip (
+\begin{DoxyParamCaption}
+\item[{const sf\-::\-Ip\-Address \&}]{ip}
+\end{DoxyParamCaption}
+)}}\label{class_network_interface_addb6ab95cd5650952ac96270dc93c584}
+Send the server that we are connected to a message that we are about to disconnect \hypertarget{class_network_interface_a56f56d384eb1c6467e9b06d8e6b0b270}{\index{Network\-Interface@{Network\-Interface}!disconnect\-From\-Server@{disconnect\-From\-Server}}
+\index{disconnect\-From\-Server@{disconnect\-From\-Server}!NetworkInterface@{Network\-Interface}}
+\subsubsection[{disconnect\-From\-Server}]{\setlength{\rightskip}{0pt plus 5cm}void Network\-Interface\-::disconnect\-From\-Server (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_network_interface_a56f56d384eb1c6467e9b06d8e6b0b270}
+Calls hangle\-Message in the game class for each packet that has to be processed. \hypertarget{class_network_interface_a3589d7035ab5b0811a4026717dddc4a8}{\index{Network\-Interface@{Network\-Interface}!handle\-Messages@{handle\-Messages}}
+\index{handle\-Messages@{handle\-Messages}!NetworkInterface@{Network\-Interface}}
+\subsubsection[{handle\-Messages}]{\setlength{\rightskip}{0pt plus 5cm}void Network\-Interface\-::handle\-Messages (
+\begin{DoxyParamCaption}
+\item[{{\bf Game} \&}]{game}
+\end{DoxyParamCaption}
+)}}\label{class_network_interface_a3589d7035ab5b0811a4026717dddc4a8}
+Ask the master server to send a server list to this client 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+include/Network\-Interface.\-hpp\item 
+src/Network\-Interface.\-cpp\end{DoxyCompactItemize}
