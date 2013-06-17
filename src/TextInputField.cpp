@@ -73,13 +73,13 @@ void TextInputField::update()
 
         }
 
-        if(Controller::getKeyDown(sf::Keyboard::Return))
+        if(Controller::getKeyDown(sf::Keyboard::Key::Return))
         {
             close();
             isReady_ = true;
         }
 
-        if(Controller::getKeyDown(sf::Keyboard::Back))
+        if(Controller::getKeyDown(sf::Keyboard::Key::BackSpace))
         {
             currentText_ = currentText_.substr(0, currentText_.size() -1);
         }

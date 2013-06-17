@@ -62,9 +62,19 @@ int main()
     static const int RUNGAME = 2;
     static const int RUNMASTERSERVER = 3;
 
+	std::cout << "Step 1: run a server\n";
+	std::cout << "Step 1.5: Allow access to the network. goto step 1\n";
+	std::cout << "Step 2: run a game\n";
+	std::cout << "Step 3: enter your desired login information\n";
+	std::cout << "Step 4: click register\n";
+	std::cout << "Step 5: enter the same information again\n";
+	std::cout << "Step 6: click login\n";
+	std::cout << "Step 7: move around with WASD\n";
+	std::cout << "Step 8: repeat step 2 -> 6 to enter the server with another player\n";
+	std::cout << "--------------------------------------------------" << std::endl;
     std::cout << "type: \"1\" to run server" << std::endl;
     std::cout << "type: \"2\" to run game" << std::endl;
-    std::cout << "type: \"3\" to run master server" << std::endl;
+    //std::cout << "type: \"3\" to run master server" << std::endl;
 
     int input = 0;
     std::cin >> input;

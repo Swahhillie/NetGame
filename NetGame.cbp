@@ -31,15 +31,15 @@
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
+			<Add option="-DSFML_STATIC" />
 			<Add directory="include" />
 		</Compiler>
 		<Linker>
-			<Add library="sfml-network" />
-			<Add library="sfml-graphics" />
-			<Add library="sfml-system" />
-			<Add library="glew32" />
-			<Add library="opengl32" />
-			<Add library="sfml-window" />
+			<Add option="-Wl,--enable-auto-import" />
+			<Add library="sfml-network-s" />
+			<Add library="sfml-graphics-s" />
+			<Add library="sfml-window-s" />
+			<Add library="sfml-system-s" />
 		</Linker>
 		<Unit filename="include/Button.hpp" />
 		<Unit filename="include/Character.hpp" />

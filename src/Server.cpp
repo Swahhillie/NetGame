@@ -500,6 +500,8 @@ void Server::greetClient(const PlayerConnected & playerConnectedEvent)
 }
 void Server::sendTargetList()
 {
+    if(tcpConnections.empty())return;
+
     TargetList tl;
     tl.entryCount = targets_.size();
     tl.targetPositions = std::vector<glm::vec2>(targets_.size());
